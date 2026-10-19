@@ -1,0 +1,11 @@
+Student_Id,Department,Weekly_hours,Coding_score,Theory_score,composite_score,High_capacity
+201,stats,14.5,88.0,92,89.6,True
+202,CS,18.0,95.0,89,92.6,True
+203,math,12.0,72.0,78,74.4,False
+204,CS,15.222222222222221,85.0,88,86.2,True
+205,stats,16.5,85.0,85,85.0,True
+206,Math,20.0,90.0,94,91.6,True
+207,CS,10.5,68.0,70,68.8,False
+208,stats,15.0,82.0,80,81.19999999999999,False
+209,maths,11.0,75.0,72,73.8,False
+210,CS,19.5,98.0,96,97.2,True

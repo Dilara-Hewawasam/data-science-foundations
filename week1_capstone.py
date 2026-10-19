@@ -37,7 +37,7 @@ df["composite_score"]=(df["Coding_score"]*0.6+df["Theory_score"]*0.4)
 df["High_capacity"]=(df["composite_score"]>=85)&(df["Weekly_hours"]>=14.0)
 
 print("\n===2.CLEANED AND ENGINEERED DATASET===")
-print(df["Student_Id","Department","Weekly_hours","composite_score","High_capacity"])
+print(df[["Student_Id","Department","Weekly_hours","composite_score","High_capacity"]])
 
 #Department level categorisation and summary statistics
 dept_summary=df.groupby("Department").agg(
@@ -50,6 +50,6 @@ dept_summary=df.groupby("Department").agg(
 
 print(dept_summary)
 
-df.csv("week1_cleaned_data.csv",index=False)
+df.to_csv("week1_cleaned_data.csv",index=False)
 print("\n Cleaned data exported successfully to 'week1_cleaned_data.csv'")
 
